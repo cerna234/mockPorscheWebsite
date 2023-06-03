@@ -89,6 +89,7 @@ const SplashPage = () => {
 
                             <div className="numberSection">
                                 <p className="carProgress">0{selectedCar + 1}</p>
+                                <p className="carProgressSlash">/</p>
                                 <p className="carProgressFull">03</p>
                                
                             </div>

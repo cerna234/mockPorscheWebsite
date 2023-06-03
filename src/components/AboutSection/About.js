@@ -13,16 +13,19 @@ const About = () => {
     const [videoClicked, setVideoClicked] = useState(false);
     return (
         <div className="aboutSection">
-           <div className="aboutTextSection">
-                <motion.h2
+           <motion.div
+            className="aboutTextSection"
+            initial={{y: "-100%", opacity:0}}
+            whileInView={{y: "0%",opacity:1}}
+            transition={{duration:1}}
+                >
+                <h2
                 
                 className="aboutTitle"
-                initial={{x : -200, opacity:0}}
-                whileInView={{x:0, opacity:1}}
-                transition={{duration:1}}
-                >WE ARE THE LEADERS IN THE AUTOMOTIVE INDUSTRY</motion.h2>
+                
+                >WE ARE THE LEADERS IN THE AUTOMOTIVE INDUSTRY</h2>
                 <h2 className="aboutText">industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </h2>
-           </div>
+           </motion.div>
 
            <div className="aboutImageSection">
             <div className="videoPreview">
