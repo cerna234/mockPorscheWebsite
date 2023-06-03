@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import locationData from "./LocationData";
+import { SizeMe } from "react-sizeme";
 const Locations = () => {
     const globeEl = useRef();
 
@@ -53,6 +54,25 @@ const Locations = () => {
               
 
             </motion.div>
+
+
+           <div className="mobileGlobe">
+                <SizeMe>{({ size: { width } }) => (
+                <Globe
+                 width={width} height={width / (4/3)}
+                 globeImageUrl="https://muralsyourway.vtexassets.com/arquivos/ids/242208/Black-And-White-World-Map-Wall-Mural.jpg?v=638164450682600000"
+                 showAtmosphere={true}
+                 atmosphereColor="rgb(35,35,35,1)"
+                 pointColor="color"
+                 ref={globeEl}
+         
+                 backgroundColor="rgba(35, 35, 35, 0)"
+         
+                 pointsData={locationData}
+
+                  />
+                )}</SizeMe>
+           </div>
 
             <div className="locationsText">
                 <motion.div
