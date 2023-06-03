@@ -84,6 +84,7 @@ const Locations = () => {
                     <h2 className="locationsTitle">LOCATIONS</h2>
                     <h2 className="locationsSubTitle">WHERE TO FIND US</h2>
 
+
                 </motion.div>
 
                 <motion.div
@@ -112,7 +113,7 @@ const Locations = () => {
                     </div>
 
                     <div className="locationStatsButtonContainer">
-                        <p>ndbd</p>
+                        <button className="locationButton">Find Nearest Location</button>
                     </div>
                   
                     

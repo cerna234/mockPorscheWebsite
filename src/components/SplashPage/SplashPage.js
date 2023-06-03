@@ -62,8 +62,8 @@ const SplashPage = () => {
 
                         <motion.div 
                             className="subData"
-                            initial={{   y:"100%" }}
-                            whileInView={{ y: "0%" }}
+                            initial={{   x:"-100%" }}
+                            whileInView={{ x: "0%" }}
                             transition={{ duration: 1 }}
                         >
                             <div className="fullName">
