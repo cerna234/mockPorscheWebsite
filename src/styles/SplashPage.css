@@ -144,7 +144,6 @@
     height: 20%;
     display: flex;
     justify-content: space-between;
-    
     z-index: 1;
 }
 
@@ -368,6 +367,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        
     }
 
  

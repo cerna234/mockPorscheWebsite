@@ -134,6 +134,7 @@
     color: rgb(227, 227, 227);
     font-family: 'Ropa Sans', sans-serif;
     text-shadow: 10px 10px 1px rgb(20, 20, 20);
+    z-index: 9;
 }
 
 
@@ -234,6 +235,7 @@
        
         padding-right: 20px;
         padding-bottom: 20px;
+     
     
         
         
