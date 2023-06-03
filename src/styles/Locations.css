@@ -224,8 +224,8 @@
 
     
     .mobileGlobe{
-        width: 350px;
-        height: 350px;
+        width: 550px;
+        height: 500px;
         z-index: 1000;
         display: block;
     }
