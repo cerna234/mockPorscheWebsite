@@ -57,8 +57,8 @@ const Locations = () => {
             <div className="locationsText">
                 <motion.div
                     className="LocationsTitleSection"
-                    initial={{x: "-100%", opacity:0}}
-                    whileInView={{x: "0%",opacity:1}}
+                    initial={{y: "-100%", opacity:0}}
+                    whileInView={{y: "0%",opacity:1}}
                     transition={{duration:1}}    
                 >
                     <h2 className="locationsTitle">LOCATIONS</h2>
