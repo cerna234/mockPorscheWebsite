@@ -6,7 +6,7 @@
     display: flex;
     min-height: 100px;
     max-height: 150px;
-    z-index: 12;
+    z-index: 1002;
 }
 
 
@@ -214,7 +214,9 @@
     }
 
     .navLink{
-        font-size: 90px;
+        font-size: 30px;
+        text-align: center;
+    
 
     }
 
@@ -235,6 +237,7 @@
        
         padding-right: 20px;
         padding-bottom: 20px;
+        
      
     
         

@@ -65,7 +65,11 @@ const Locations = () => {
                  atmosphereColor="rgb(35,35,35,1)"
                  pointColor="color"
                  ref={globeEl}
-         
+                 options={{
+                    enableMarkerGlow: true,
+                    markerRadiusScaleRange: [0.005, 0.02],
+                    markerType: 'dot',
+                  }}
                  backgroundColor="rgba(35, 35, 35, 0)"
          
                  pointsData={locationData}
