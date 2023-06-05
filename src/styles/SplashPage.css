@@ -437,3 +437,9 @@
     
    
   }
+
+  @media (max-width: 700px ) and (max-height: 600px ) {
+    .splashContainer{
+        height: 200vh;
+    }
+  }

@@ -14,7 +14,7 @@ const CompareCallToAction = () => {
                
             >
                <h2 className="compareTitle">CAR COMPARISON</h2>
-               <p className="compareSubtitle">dndnk kdndmnd </p>
+               <p className="compareSubtitle">Explore and compare the features, specifications, and prices of different car models to find the perfect fit for your needs </p>
             </motion.div>
 
             <div className="compareCarSection">
