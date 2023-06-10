@@ -11,6 +11,7 @@
 
 .carLinkContainer{
     color: rgba(255, 0, 0, 0);
+    z-index: 100;
 }
 
 .logoSection{
@@ -153,7 +154,7 @@
     left: 0;
     bottom: 0;
     color: rgba(62, 62, 62, 0.176);
-    z-index: 1 ;
+    
 }
 
 .companyInfo{
