@@ -6,10 +6,12 @@
     display: flex;
     min-height: 100px;
     max-height: 150px;
-    z-index: 12;
+    z-index: 1002;
 }
 
-
+.carLinkContainer{
+    color: rgba(255, 0, 0, 0);
+}
 
 .logoSection{
     width: 50%;

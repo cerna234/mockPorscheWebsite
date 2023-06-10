@@ -18,8 +18,7 @@ const Footer = () => {
                 </div>
 
             </div>
-            <h2 className="footerOverlay">winning together</h2>
-            <h2 className="footerOverlay2">31'</h2>
+            <h2 className="footerOverlay">31'</h2>
         </div>
     )
 }

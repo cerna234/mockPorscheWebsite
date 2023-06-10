@@ -3,6 +3,7 @@ import "../../styles/Nav.css"
 import { GiHamburgerMenu} from "react-icons/gi";
 import { motion } from "framer-motion";
 import { SiPorsche } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
 
@@ -16,6 +17,7 @@ const Nav = () => {
         <nav className="navContainer">
             <div className="logoSection">
                <div className="logoContainer">
+                 
                     <div className="logo">
 
                     </div>
@@ -35,25 +37,40 @@ const Nav = () => {
                     <div className="backgroundImageOverlay">
 
                     </div>
-                    <div className="navLinks">
-                        <motion.p
-                            className="navLink"
-                            initial={{ opacity: 0,  y:"100%" }}
-                            whileInView={{ opacity: 1,  y: "0%" }}
-                            transition={{ duration: 1}}
-                        >HOME</motion.p>
-                        <motion.p
+                    <div className="navLinks" >
+                
+                     
+
+                        <Link
+                            to="/"
+                            onClick={() => {NavToggle()}}
+                            className="carLinkContainer"
+                        >
+                            <motion.p
                             className="navLink"
                             initial={{ opacity: 0,  y:"100%" }}
                             whileInView={{ opacity: 1,  y: "0%" }}
                             transition={{ duration: 1, delay: .4 }}
-                        >CARS</motion.p>
-                        <motion.p
+                            >Home
+                            </motion.p>
+                        </Link>
+                        <Link
+                            to="/cars"
+                            onClick={() => {NavToggle()}}
+                            className="carLinkContainer"
+                        >
+                            <motion.p
                             className="navLink"
                             initial={{ opacity: 0,  y:"100%" }}
                             whileInView={{ opacity: 1,  y: "0%" }}
-                            transition={{ duration: 1, delay: .8 }}
-                        >ABOUT</motion.p>
+                            transition={{ duration: 1, delay: .4 }}
+                            >CARS
+                            </motion.p>
+                        </Link>
+                      
+                       
+                        
+                      
 
                         <SiPorsche className="logoOverlay"/>
                         <div className="companyInfo">
