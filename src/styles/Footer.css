@@ -7,8 +7,14 @@
     overflow-y: hidden;
     overflow-x: hidden;
     min-height: 400px;
+    flex-direction: column;
 }
 
+.footerTopSection{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
 .footerLogoSection{
     width: 40%;
     height: 100%;
@@ -66,8 +72,23 @@
     
 }
 
+.footerBottomSection{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    color: rgb(157, 157, 157);
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+
 
 @media only screen and (max-width: 600px) {
+    .footerTopSection{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+    }
     .footerContainer{
         width: 100%;
         height: 70vh;
