@@ -37,7 +37,7 @@ const SplashPage = () => {
                                </div>
                                <div className="individualSpec">
                                     <TbEngine className="specIcon"/>
-                                    <h3 className="specTitle">Top Speed</h3>
+                                    <h3 className="specTitle">Speed</h3>
                                     <p className="specdata">{value.carTopSpeed}</p>
                                </div>
                             </motion.div>

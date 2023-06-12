@@ -42,6 +42,78 @@ const CarData = [
         year: 2023
      
     },
+    {
+        modelName: "718 SPYDER",
+        carImage: Spyder718,
+        carTopSpeed: "187 MPH",
+        carAcceleration: "4.4s",
+        carHorsepower: "282",
+        year: 2023
+     
+    },
+    {
+        modelName: "718 SPYDER",
+        carImage: Spyder718,
+        carTopSpeed: "187 MPH",
+        carAcceleration: "4.4s",
+        carHorsepower: "282",
+        year: 2023
+     
+    },
+    {
+        modelName: "718 SPYDER",
+        carImage: Spyder718,
+        carTopSpeed: "187 MPH",
+        carAcceleration: "4.4s",
+        carHorsepower: "282",
+        year: 2023
+     
+    },
+    {
+        modelName: "718 SPYDER",
+        carImage: Spyder718,
+        carTopSpeed: "187 MPH",
+        carAcceleration: "4.4s",
+        carHorsepower: "282",
+        year: 2023
+     
+    },
+    {
+        modelName: "718 SPYDER",
+        carImage: Spyder718,
+        carTopSpeed: "187 MPH",
+        carAcceleration: "4.4s",
+        carHorsepower: "282",
+        year: 2023
+     
+    },
+    {
+        modelName: "718 SPYDER",
+        carImage: Spyder718,
+        carTopSpeed: "187 MPH",
+        carAcceleration: "4.4s",
+        carHorsepower: "282",
+        year: 2023
+     
+    },
+    {
+        modelName: "718 SPYDER",
+        carImage: Spyder718,
+        carTopSpeed: "187 MPH",
+        carAcceleration: "4.4s",
+        carHorsepower: "282",
+        year: 2023
+     
+    },
+    {
+        modelName: "718 SPYDER",
+        carImage: Spyder718,
+        carTopSpeed: "187 MPH",
+        carAcceleration: "4.4s",
+        carHorsepower: "282",
+        year: 2023
+     
+    },
     
 ]
 

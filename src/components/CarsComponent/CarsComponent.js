@@ -9,16 +9,14 @@ import { GiCarDoor,GiSuitcase } from "react-icons/gi";
 
 const CarsComponent = () => {
 
-    const RecentWorks = [
-        {
-            test: 1,
-            test2: 3
-        },
-        
-    ]
+   
 
     return(
         <div className="carComponentContainer">
+            <div className="carsTitleSetion">
+                <h3 className="carsTitle">CARS AND MODELS</h3>
+
+            </div>
           <div class="container-fluid overflow-hidden text-center">
         <div class="row gy-5">
         {CarData.map((value,key) => {
@@ -27,6 +25,7 @@ const CarsComponent = () => {
                         <div style={{backgroundImage:`url(${value.carImage})`}} className={"projectsPageProjectCard"}>
                             
                             <div className="carPageInfo">
+                                <p className="carpPageInfoNumber">{key + 1 < 10 ? 0 : ""} {key + 1}</p>
                                 <p className="carPageInfoTitle">{value.modelName}</p>
                                 <p className="carPageInfoDetails">TOP SPEED : {value.carTopSpeed}</p>
                                 <p className="carPageInfoDetails">0 - 60 :  {value.carAcceleration}</p>

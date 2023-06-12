@@ -113,7 +113,7 @@ const Locations = () => {
                     </div>
 
                     <div className="locationStatsButtonContainer">
-                        <button className="locationButton">Find Nearest Location</button>
+                        <a href="https://www.google.com/maps" target="blank" className="locationButton">Find Nearest Location</a>
                     </div>
                   
                     

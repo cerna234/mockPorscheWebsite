@@ -80,11 +80,13 @@
     width: 34%;
     height: 30%;
     font-family: 'Ropa Sans', sans-serif;
-    padding-left: 5%;
+    padding-left: 8%;
     
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    position: relative;
+    top: 30px;
 }
 .locationStatsButtonContainer{
     width: 40%;
@@ -116,6 +118,8 @@
     
     position: relative;
     left: 0%;
+    top: 40px;
+    text-decoration: none;
    
 
 }
